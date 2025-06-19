@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FDC10C"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/songtitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Song Title"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:minHeight="50dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/artistnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Artist Name"
+        android:minHeight="50dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/ratingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Rating(1-5)"
+        android:minHeight="50dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/commentsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Comments (Optional)"
+        android:minHeight="50dp"
+        android:inputType="textMultiLine"/>
+
+</LinearLayout>
